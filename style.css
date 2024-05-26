@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    
+}
+.page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.page .left {
+     /* margin-top: 10%; */
+    /* margin-left: -50%; */
+    height: 65%;
+    width: 25%;
+    background-color: blue;
+    border-radius: 10%;
+    position: absolute;
+    left: 25%;
+    z-index: 1;
+}
+.page .left h1 {
+    padding: 2vh;
+    text-align: center;
+    font-weight: 600;
+    font-size: 4vh;
+    color: lightblue;
+}
+
+.page .left .circle {
+    margin-top: 3vh;
+    margin-left: 27%;
+    height: 40%;
+    width: 50%;
+    border-radius: 50%;
+    /* background-color: rgba(1, 1, 6, 0.315); */
+    background-image: linear-gradient(rgba(1, 1, 6, 0.505),rgba(1, 1, 6, 0.056),rgba(1, 1, 6, 0.056));
+    text-align: center;
+    box-shadow: 1px 1px 2px;
+    /* justify-items: center; */
+}
+.page .left .circle h3 {
+    padding-top: 2vh;
+    color: lightblue;
+}
+.page .left .circle h3 span {
+    font-size: 12vh;
+    color: #fff;
+}
+
+.page .left h2 {
+    padding-top: 3vh ;
+    text-align: center;
+    color: #fff;
+    font-size: 4vh;
+    font-weight: 700;
+}
+.page .left p {
+    padding-top: 1vh;
+    padding-left: 15%;
+    width: 80%;
+    text-align: center;
+    color: lightblue;
+}
+.page .right {
+    height: 65%;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 10%;
+    position: absolute;
+    left: 48%;
+    z-index: -1;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.page .right .box {
+    margin-left: 15%;
+    width: 80%;
+}
+
+.page .right .box h1 {
+    margin-top: 3vh;
+    color: rgb(18, 18, 18);
+    font-size: 4vh;
+}
+.page .right .box .reaction {
+    margin-top: 3vh;
+    padding: 1vh;
+    display: flex;
+    gap: 1vh;
+    background-color: rgba(255, 0, 0, 0.159);
+    height:8vh;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+}
+.page .right .box .reaction i {
+    color: red;
+    font-size: 2.5vh;
+}
+.page .right .box .reaction h2 {
+    padding-right: 5vh;
+    color: red;
+    font-size: 2.5vh;
+
+}
+
+.page .right .box .reaction h3 {
+    padding-left: 13vh;
+    color: grey;
+    font-weight: 500;
+    font-size: 2.5vh;
+    
+}
+
+.page .right .box .reaction h3 span {
+    font-weight: 700;
+    color: #000;
+}
+
+.page .right .box .memory {
+    margin-top: 2vh;
+    padding: 1vh;
+    display: flex;
+    gap: 1vh;
+    background-color: rgba(201, 96, 5, 0.236);
+    height:8vh;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+}
+.page .right .box .memory i {
+    color: rgba(201, 96, 5, 0.904);
+    font-size: 2.5vh;
+}
+.page .right .box .memory h2 {
+    padding-right: 5vh;
+    color: rgba(201, 96, 5, 0.904);
+    font-size: 2.5vh;
+
+}
+
+.page .right .box .memory h3 {
+    padding-left: 13vh;
+    color: grey;
+    font-weight: 500;
+    font-size: 2.5vh;
+    
+}
+
+.page .right .box .memory h3 span {
+    font-weight: 700;
+    color: #000;
+}
+
+.page .right .box .verbal {
+    margin-top: 2vh;
+    padding: 1vh;
+    display: flex;
+    gap: 1vh;
+    background-color: rgba(4, 132, 132, 0.216);
+    height:8vh;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+}
+.page .right .box .verbal i {
+    color: rgba(4, 132, 132, 0.904);
+    font-size: 2.5vh;
+}
+.page .right .box .verbal h2 {
+    padding-right: 5vh;
+    color: rgba(4, 132, 132, 0.904);
+    font-size: 2.5vh;
+
+}
+
+.page .right .box .verbal h3 {
+    padding-left: 16vh;
+    color: grey;
+    font-weight: 500;
+    font-size: 2.5vh;
+    
+}
+
+.page .right .box .verbal h3 span {
+    font-weight: 700;
+    color: #000;
+}
+
+
+
+
+.page .right .box .virtual {
+    margin-top: 2vh;
+    padding: 1vh;
+    display: flex;
+    gap: 1vh;
+    background-color: rgba(3, 10, 154, 0.207);
+    height:8vh;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+}
+.page .right .box .virtual i {
+    color: rgba(3, 10, 154, 0.904);
+    font-size: 2.5vh;
+}
+.page .right .box .virtual h2 {
+    padding-right: 5vh;
+    color: rgba(3, 10, 154, 0.904);
+    font-size: 2.5vh;
+
+}
+
+.page .right .box .virtual h3 {
+    padding-left: 16vh;
+    color: grey;
+    font-weight: 500;
+    font-size: 2.5vh;
+    
+}
+
+.page .right .box .virtual h3 span {
+    font-weight: 700;
+    color: #000;
+}
+
+.page .right .box button {
+    margin-top: 3vh;
+    height: 8vh;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    background-color:blue;
+    color:#fff;
+    font-weight: 700;
+    font-size: larger;
+}
